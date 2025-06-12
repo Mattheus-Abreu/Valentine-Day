@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url(img/background.png);
+    height: 100%; /* Garante que ocupe 100% da altura da tela */
+    background-size: cover;         /* Ajusta para cobrir toda a tela */
+    background-repeat: no-repeat;   /* Não repete a imagem */
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.title-name{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+hr{
+    border: #848382 solid 2px;
+}
+
+.header{
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df150a;
+    border-bottom: white solid 3px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.text{
+    color: #ffffff;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.texts{
+    color: #ffffff;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    gap: 20px;
+}
+
+
+.section1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.containerSlide{
+    width: 416px;
+    height: 520px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: aliceblue solid 5px;
+    border-radius: 10px;
+    gap: 10px;
+
+}
+
+.slide{
+    background-color: transparent;
+    display: inline-block;
+    width: 100vw;
+    animation: anima 50s linear infinite;
+}
+
+.slide img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+@keyframes anima{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-426vw);
+    }
+}
+
+.musica{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+iframe{
+    width: 400px;
+    height: 200px;
+    padding-top: 40px;
+}
+
+@media (min-width: 414px) and (max-width: 1024px){
+    body{
+        margin: 0;
+        padding: 0; 
+        background-image: url(img/background.png);
+        height: 100%; /* Garante que ocupe 100% da altura da tela */
+        background-size: cover;         /* Ajusta para cobrir toda a tela */
+        background-repeat: no-repeat;   /* Não repete a imagem */
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .section1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .containerSlide{
+        width: 300px;
+        height: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        border: aliceblue solid 5px;
+        border-radius: 10px;
+        gap: 5px;
+    
+    }
+
+    .section2{
+        width: 90%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text{
+    color: #ffffff;
+    text-align: center;
+    max-width: 1000px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    }
+
+    .title-name{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    gap: 20px;
+    padding: 20px;
+    }
+
+    .title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.texts{
+    color: #ffffff;
+    text-align: center;
+    max-width: 1300px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p{
+    font-size: 16px;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+    
+}
