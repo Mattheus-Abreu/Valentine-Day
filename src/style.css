@@ -148,9 +148,9 @@ iframe{
         margin: 0;
         padding: 0; 
         background-image: url(img/background.png);
-        height: 100%; /* Garante que ocupe 100% da altura da tela */
-        background-size: cover;         /* Ajusta para cobrir toda a tela */
-        background-repeat: no-repeat;   /* Não repete a imagem */
+        height: 100%; 
+        background-size: cover;     
+        background-repeat: no-repeat;   
         background-position: center; 
         display: flex;
         flex-direction: column;
