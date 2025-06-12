@@ -18,14 +18,14 @@ body{
     color: #ffffff;
     text-align: center;
     font-size: 50px;
-    font-family: cursive;
+    font-family: merienda;
 }
 
 .title-name{
     color: #ffffff;
     text-align: center;
     font-size: 50px;
-    font-family: cursive;
+    font-family: merienda;
 }
 hr{
     border: #848382 solid 2px;
@@ -51,7 +51,7 @@ hr{
     width: 100%;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: merienda;
     display: flex;
     justify-content: center;
     align-items: center
@@ -65,7 +65,7 @@ hr{
     width: 100%;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: merienda;
     gap: 20px;
 }
 
@@ -192,7 +192,7 @@ iframe{
     width: 90%;
     font-size: 18px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: merienda;
     display: flex;
     justify-content: center;
     align-items: center
@@ -202,7 +202,7 @@ iframe{
     color: #ffffff;
     text-align: center;
     font-size: 35px;
-    font-family: cursive;
+    font-family: merienda;
     gap: 20px;
     padding: 20px;
     }
@@ -221,7 +221,7 @@ iframe{
     width: 100%;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: merienda;
     gap: 1px;
     display: flex;
     flex-direction: column;
